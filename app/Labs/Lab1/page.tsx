@@ -205,14 +205,6 @@ Your favorite books (in no particular order)
     Aldus PageMaker including versions of Lorem Ipsum.</textarea>
 
 
- {/* expect explanation in class */}
-    <h5 id="wd-buttons">Buttons</h5>
-<button type="button"
-        onClick={() => alert('Life is Good!')} 
-        id="wd-all-good">
-  Hello World!
-</button>
-
 
     <h5 id="wd-radio-buttons">Radio buttons</h5>
     <label>Favorite movie genre:</label><br />
