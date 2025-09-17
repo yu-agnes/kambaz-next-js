@@ -58,7 +58,7 @@ My favorite books (in no particular order)
 <ul id="wd-my-books">
   <li>Dune</li>
   <li>Lord of the Rings</li>
-  <li>Ender's Game</li>
+  <li>Ender&apos;s Game</li>
   <li>Red Mars</li>
   <li>The Forever War</li>
 </ul>
@@ -165,11 +165,15 @@ Your favorite books (in no particular order)
 <div id="wd-images">
   <h4>Image tag</h4>
   Loading an image from the internet: <br />
-  <img id="wd-starship" width="400px"   src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg" />
+  <img id="wd-starship" width="400px"   
+  src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"
+  alt="Starship spacecraft" />
   <br />
   Loading a local image:
   <br />
-  <img id="wd-teslabot" src="/images/teslabot.jpg" height="200px" />
+  <img id="wd-teslabot" 
+  src="/images/teslabot.jpg" height="200px"
+  alt="Tesla Bot robot" />
   </div>
 
   <div id="wd-forms">
@@ -192,7 +196,7 @@ Your favorite books (in no particular order)
     <h5>Text boxes</h5>
 <label>Biography:</label><br/>
 <textarea id="wd-textarea" cols={30} rows={10}>Lorem Ipsum is simply dummy text of the 
-    printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+    printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text 
     ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
     It has survived not only five centuries, but also the leap into electronic typesetting, 
     remaining essentially unchanged. It was popularised in the 1960s with the 
