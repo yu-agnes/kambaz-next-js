@@ -5,7 +5,6 @@ export default function Modules() {
         <button>Collapse All</button>
         <button>View Progress</button>
 
-
         <select>
           <option>Publish All</option>
           <option>Publish All Modules and Items</option>
@@ -30,9 +29,27 @@ export default function Modules() {
         </li>
         <li className="wd-module">
           <div className="wd-title">Week 2</div>
+          <ul className="wd-lessons">
+            <li className="wd-lesson">
+              <span className="wd-title">LEARNING OBJECTIVES</span>
+              <ul className="wd-content">
+                <li className="wd-content-item">Learn how to create user interfaces with HTML</li>
+                <li className="wd-content-item">Deploy the assignment</li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li className="wd-module">
           <div className="wd-title">Week 3</div>
+          <ul className="wd-lessons">
+            <li className="wd-lesson">
+              <span className="wd-title">LEARNING OBJECTIVES</span>
+              <ul className="wd-content">
+                <li className="wd-content-item">Learn CSS</li>
+                <li className="wd-content-item">Apply CSS and Bootstrap</li>
+              </ul>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
