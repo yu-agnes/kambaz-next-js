@@ -11,7 +11,7 @@ export default function Assignments() {
     <div id="wd-assignments">
       <AssignmentsControls />
       <br /><br /><br />
-      
+
       <ListGroup className="rounded-0" id="wd-assignments-list">
         <ListGroupItem className="p-0 mb-5 fs-5 border-gray">
           {/* Header */}
@@ -20,20 +20,21 @@ export default function Assignments() {
             ASSIGNMENTS
             <AssignmentControlButtons />
           </div>
-          
+
           {/* Assignment Items */}
           <ListGroup className="rounded-0">
             {/* A1 */}
-            <ListGroupItem className="wd-assignment-list-item p-3 ps-1">
+            <ListGroupItem className="wd-assignment-list-item p-3 ps-1"
+              style={{ borderLeft: '5px solid #198754' }}>
               <div className="d-flex align-items-start">
                 <BsGripVertical className="me-2 fs-3" />
                 <MdOutlineAssignment className="me-3 fs-3 text-success" />
                 <div className="flex-grow-1">
-                  <Link 
+                  <Link
                     href="/Courses/1234/Assignments/123"
                     className="wd-assignment-link text-dark text-decoration-none fw-bold"
                   >
-                    A1 - ENV + HTML
+                    A1
                   </Link>
                   <div className="text-muted small">
                     <span className="text-danger">Multiple Modules</span> | <b>Not available until</b> May 6 at 12:00am
@@ -47,16 +48,17 @@ export default function Assignments() {
             </ListGroupItem>
 
             {/* A2 */}
-            <ListGroupItem className="wd-assignment-list-item p-3 ps-1">
+            <ListGroupItem className="wd-assignment-list-item p-3 ps-1"
+              style={{ borderLeft: '5px solid #198754' }}>
               <div className="d-flex align-items-start">
                 <BsGripVertical className="me-2 fs-3" />
                 <MdOutlineAssignment className="me-3 fs-3 text-success" />
                 <div className="flex-grow-1">
-                  <Link 
+                  <Link
                     href="/Courses/1234/Assignments/124"
                     className="wd-assignment-link text-dark text-decoration-none fw-bold"
                   >
-                    A2 - CSS + BOOTSTRAP
+                    A2
                   </Link>
                   <div className="text-muted small">
                     <span className="text-danger">Multiple Modules</span> | <b>Not available until</b> May 13 at 12:00am
@@ -70,16 +72,17 @@ export default function Assignments() {
             </ListGroupItem>
 
             {/* A3 */}
-            <ListGroupItem className="wd-assignment-list-item p-3 ps-1">
+            <ListGroupItem className="wd-assignment-list-item p-3 ps-1"
+              style={{ borderLeft: '5px solid #198754' }}>
               <div className="d-flex align-items-start">
                 <BsGripVertical className="me-2 fs-3" />
                 <MdOutlineAssignment className="me-3 fs-3 text-success" />
                 <div className="flex-grow-1">
-                  <Link 
+                  <Link
                     href="/Courses/1234/Assignments/125"
                     className="wd-assignment-link text-dark text-decoration-none fw-bold"
                   >
-                    A3 - JAVASCRIPT + REACT
+                    A3
                   </Link>
                   <div className="text-muted small">
                     <span className="text-danger">Multiple Modules</span> | <b>Not available until</b> May 20 at 12:00am
